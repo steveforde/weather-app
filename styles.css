@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e0f7fa; /* Light blue background color */
+    padding: 40px; /* Increase padding for a larger container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Increase container width */
+    max-width: 800px; /* Set a maximum width */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em; /* Increase font size for the title */
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 70%;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.weather-day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Increase padding for each weather day */
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2em; /* Increase font size for weather details */
+}
+
+.weather-day:last-child {
+    border-bottom: none;
+}
+
+.weather-day div {
+    flex: 1; /* Ensure each div takes equal space */
+    text-align: center; /* Center align text */
+}
+
+.weather-day img {
+    width: 60px; /* Increase icon size */
+    height: 60px; /* Increase icon size */
+}
